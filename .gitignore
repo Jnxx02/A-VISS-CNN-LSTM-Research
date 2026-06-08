@@ -1,10 +1,31 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
-
-.venv/
-venv/
-
 *.pyc
 
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Operating System
 .DS_Store
 Thumbs.db
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Large Processed Dataset
+X_vektor_60s.npy
+groups_id.npy
+y_labels.npy
+
+# Temporary Files
+*.log
